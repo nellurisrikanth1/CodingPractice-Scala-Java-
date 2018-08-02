@@ -7,8 +7,8 @@ import java.io.IOException;
 public class PracticeConcepts {
 
     public static void main(String[] args) throws Exception {
-        Reader scan = new Reader();
-
+        int j = 5;
+        System.out.println(7 | 8);
     }
 
 }

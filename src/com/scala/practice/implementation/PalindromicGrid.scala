@@ -25,7 +25,7 @@ object PalindromicGrid {
         io.StdIn.readLine.toCharArray.foreach(c => frequency(c - 'a') += 1)
       })*/
 
-      val frequency = (1 to n).map(_ => io.StdIn.readLine()).mkString("").groupBy(identity).map(_._2.length)
+      val frequency = (1 to n).map(_ => io.StdIn.readLine()).mkString("").groupBy(identity).values.map(_.length)
 
       println(if (n % 2 == 0 && m % 2 == 0) {
         if (frequency.exists(_ % 4 > 0)) "NO" else "YES"
