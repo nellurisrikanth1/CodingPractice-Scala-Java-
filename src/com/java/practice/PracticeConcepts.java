@@ -8,7 +8,7 @@ public class PracticeConcepts {
 
     public static void main(String[] args) throws Exception {
         int j = 5;
-        System.out.println(7 | 8);
+        System.out.println(16 & 15);
     }
 
 }
